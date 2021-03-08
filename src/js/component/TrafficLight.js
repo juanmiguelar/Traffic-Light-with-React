@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 
 //create your first component
-const Home = () => {
+const TrafficLight = () => {
 	const [color, setColor] = useState("red");
 
 	const handleClick = e => {
@@ -53,4 +53,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default TrafficLight;
